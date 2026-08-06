@@ -30,7 +30,7 @@ Professional portfolio presenting my projects, skills, and experience as a Compu
 
 - **Vidyavarshini G**
 - **GitHub**: [https://github.com/vidyavarshinig15](https://github.com/vidyavarshinig15)
-- **LinkedIn**: [https://www.linkedin.com/in/vidyavarshini1512/](https://www.linkedin.com/in/vidyavarshini1512/)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/vidyavarshini1512/)
 
 ---
 
