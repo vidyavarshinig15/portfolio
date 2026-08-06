@@ -151,98 +151,7 @@ export default function Home() {
           >
             <div className="relative mb-8">
               <svg
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 h-[5rem] w-auto max-w-[95vw] md:hidden"
-                viewBox="0 0 600 150"
-                preserveAspectRatio="xMidYMid meet"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <defs>
-                  <linearGradient
-                    id="strokeGradientMobileLight"
-                    x1="0%"
-                    y1="0%"
-                    x2="0%"
-                    y2="100%"
-                  >
-                    <stop offset="60%" stopColor="#191919" stopOpacity="0" />
-                    <stop offset="100%" stopColor="#191919" stopOpacity="1" />
-                  </linearGradient>
-                  <linearGradient
-                    id="strokeGradientMobileDark"
-                    x1="0%"
-                    y1="0%"
-                    x2="0%"
-                    y2="100%"
-                  >
-                    <stop offset="60%" stopColor="#ffffff" stopOpacity="0" />
-                    <stop offset="100%" stopColor="#ffffff" stopOpacity="1" />
-                  </linearGradient>
-                </defs>
-                <style>{`
-                  .text-name-mobile { stroke: url(#strokeGradientMobileLight); }
-                  @media (prefers-color-scheme: dark) {
-                    .dark .text-name-mobile { stroke: url(#strokeGradientMobileDark); }
-                  }
-                  .dark .text-name-mobile { stroke: url(#strokeGradientMobileDark); }
-                `}</style>
-                <text
-                  x="50%"
-                  y="50%"
-                  dominantBaseline="middle"
-                  textAnchor="middle"
-                  className="text-name-mobile font-bold"
-                  fill="transparent"
-                  strokeWidth="2"
-                  style={{ fontSize: "56px", fontFamily: "inherit" }}
-                >
-                  Vidyavarshini G
-                </text>
-              </svg>
-              <svg
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 h-[7rem] w-auto max-w-[95vw] hidden md:block lg:hidden"
-                viewBox="0 0 800 150"
-                preserveAspectRatio="xMidYMid meet"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <defs>
-                  <linearGradient
-                    id="strokeGradientTablet"
-                    x1="0%"
-                    y1="0%"
-                    x2="0%"
-                    y2="100%"
-                  >
-                    <stop
-                      offset="60%"
-                      stopColor="currentColor"
-                      stopOpacity="0"
-                    />
-                    <stop
-                      offset="100%"
-                      stopColor="currentColor"
-                      stopOpacity="1"
-                    />
-                  </linearGradient>
-                </defs>
-                <text
-                  x="50%"
-                  y="50%"
-                  dominantBaseline="middle"
-                  textAnchor="middle"
-                  className="font-bold fill-transparent"
-                  stroke="url(#strokeGradientTablet)"
-                  strokeWidth="2"
-                  style={{ fontSize: "75px", fontFamily: "inherit" }}
-                >
-                  Vidyavarshini G
-                </text>
-              </svg>
-              <svg
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[53%] -z-10 h-[8rem] w-auto max-w-[95vw] hidden lg:block"
-                viewBox="0 0 800 150"
-                preserveAspectRatio="xMidYMid meet"
+                className="absolute inset-0 -z-10 w-full h-full"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
               >
@@ -271,10 +180,10 @@ export default function Home() {
                   y="50%"
                   dominantBaseline="middle"
                   textAnchor="middle"
-                  className="font-bold fill-transparent"
+                  className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold fill-transparent"
                   stroke="url(#strokeGradientDesktop)"
                   strokeWidth="2"
-                  style={{ fontSize: "80px", fontFamily: "inherit" }}
+                  style={{ fontFamily: "var(--font-sans)" }}
                 >
                   Vidyavarshini G
                 </text>
