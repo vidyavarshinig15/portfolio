@@ -34,7 +34,7 @@ export const translations = {
         title: "My Education",
         vvce: {
           location: "Vidyavardhaka College of Engineering, Mysuru",
-          degree: "B.E. in Computer Science and Engineering — CGPA: 8.67",
+          degree: "B.E. in Computer Science and Engineering — CGPA: 8.82",
           date: "2023 - 2027",
         },
         jss: {

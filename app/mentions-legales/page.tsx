@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mentions Légales - Vidyavarshini G",
-  description: "Mentions légales et informations légales du site de Vidyavarshini G",
+  title: "Legal Notices - Vidyavarshini G",
+  description: "Legal notices and legal information for Vidyavarshini G's website",
 };
 
 export default function MentionsLegales() {
@@ -14,18 +14,18 @@ export default function MentionsLegales() {
 
       <div className="container mx-auto px-4 py-25 max-w-4xl flex-grow">
         <h1 className="text-4xl font-bold mb-8 text-foreground">
-          Mentions Légales
+          Legal Notices
         </h1>
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">1. Éditeur du site</h2>
             <p>
-              Ce site est édité par : <strong>Vidyavarshini G</strong>
+              This site is published by: <strong>Vidyavarshini G</strong>
               <br />
-              Adresse : <strong>Bangalore, India</strong>
+              Address: <strong>Bangalore, India</strong>
               <br />
-              Email :{" "}
+              Email: {" "}
               <strong>
                 <a
                   href="mailto:vidyavarshinig15@gmail.com"
@@ -48,13 +48,13 @@ export default function MentionsLegales() {
               <br />
               Site web :{" "}
               <a
-                href="https://vercel.com"
+                This site is hosted by: <strong>Vercel Inc.</strong>
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors"
-              >
+                Phone: (559) 288-7060
                 https://vercel.com
-              </a>
+                Website: {" "}
               <br />
               Email :{" "}
               <a
@@ -71,16 +71,9 @@ export default function MentionsLegales() {
               3. Propriété intellectuelle
             </h2>
             <p>
-              L&apos;ensemble des éléments du site (textes, images, graphismes,
-              logos, etc.) sont, sauf mention contraire, la propriété exclusive
-              de Vidyavarshini G. <br />
-              Toute reproduction, modification, distribution ou utilisation,
-              totale ou partielle, de ces éléments sans autorisation écrite
-              préalable est strictement interdite et constitue une violation des
-              droits d&apos;auteur. <br />
-              Certaines ressources utilisées sur le site (polices, icônes,
-              bibliothèques JavaScript) restent la propriété de leurs auteurs
-              respectifs et sont utilisées conformément à leurs licenses.
+              All site elements (texts, images, graphics, logos, etc.) are, unless otherwise stated, the exclusive property of Vidyavarshini G. <br />
+              Any reproduction, modification, distribution, or use, in whole or in part, of these elements without prior written authorization is strictly prohibited and constitutes a copyright violation. <br />
+              Some resources used on the site (fonts, icons, JavaScript libraries) remain the property of their respective authors and are used in accordance with their licenses.
             </p>
           </section>
 
@@ -89,19 +82,7 @@ export default function MentionsLegales() {
               4. Données personnelles
             </h2>
             <p>
-              Les informations recueillies via le formulaire de contact sont
-              utilisées uniquement pour répondre aux demandes envoyées par
-              l&apos;utilisateur. Les données sont conservées pour une durée
-              maximale de 3 ans, sauf obligation légale contraire, et ne sont
-              jamais revendues à des tiers. Le site utilise Vercel Analytics, un
-              service fourni par Vercel Inc., afin de mesurer la fréquentation
-              et l&apos;utilisation du site. Les données collectées sont
-              anonymisées et ne permettent pas d&apos;identifier directement
-              l&apos;utilisateur. Conformément au Règlement Général sur la
-              Protection des Données (RGPD), vous disposez d&apos;un droit
-              d&apos;accès, de rectification, d&apos;opposition et de
-              suppression de vos données personnelles. Pour exercer ce droit,
-              vous pouvez envoyer une demande à l&apos;adresse suivante :{" "}
+              Information collected through the contact form is used only to respond to requests sent by the user. Data is retained for a maximum of 3 years, unless otherwise required by law, and is never sold to third parties. The site uses Vercel Analytics, a service provided by Vercel Inc., to measure site traffic and usage. The collected data is anonymized and does not directly identify the user. In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify, object to, and delete your personal data. To exercise this right, you can send a request to:{" "}
               <a
                 href="mailto:vidyavarshinig15@gmail.com"
                 className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors"
@@ -114,23 +95,14 @@ export default function MentionsLegales() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">5. Responsabilité</h2>
             <p>
-              L&apos;éditeur du site ne pourra être tenu responsable des erreurs
-              ou omissions présentes sur le site, ou de tout problème technique
-              rencontré par l&apos;utilisateur. Le site peut contenir des liens
-              hypertextes vers d&apos;autres sites internet. L&apos;éditeur
-              n&apos;exerce aucun contrôle sur ces sites et décline toute
-              responsabilité quant à leurs contenus.
+              The site publisher cannot be held responsible for errors or omissions on the site, or for any technical problems encountered by the user. The site may contain hyperlinks to other websites. The publisher has no control over those sites and disclaims any responsibility for their content.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">6. Cookies</h2>
             <p>
-              Le site n&apos;utilise que des cookies nécessaires à son bon
-              fonctionnement. Aucun cookie de suivi ou de publicité n&apos;est
-              utilisé. Vous pouvez désactiver les cookies dans les paramètres de
-              votre navigateur, mais cela peut affecter certaines
-              fonctionnalités du site.
+              The site only uses cookies necessary for its proper functioning. No tracking or advertising cookies are used. You can disable cookies in your browser settings, but this may affect certain site features.
             </p>
           </section>
         </div>

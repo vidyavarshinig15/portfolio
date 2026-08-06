@@ -7,19 +7,19 @@ export async function POST(request: Request) {
 
     if (!nom || !prenom || !email || !message) {
       return NextResponse.json(
-        { error: "Tous les champs sont requis" },
+        { error: "All fields are required" },
         { status: 400 }
       );
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      return NextResponse.json({ error: "Email invalide" }, { status: 400 });
+      return NextResponse.json({ error: "Invalid email" }, { status: 400 });
     }
 
     if (!process.env.SMTP_HOST || !process.env.SMTP_USER || !process.env.SMTP_PASSWORD) {
       console.warn("SMTP environment variables are not set. Logging email to console:");
-      console.log(`Nom: ${nom}, Prénom: ${prenom}, Email: ${email}`);
+      console.log(`First name: ${prenom}, Last name: ${nom}, Email: ${email}`);
       console.log("Message:", message);
       return NextResponse.json({ success: true });
     }
@@ -37,13 +37,15 @@ export async function POST(request: Request) {
     const mailOptions = {
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: "vidyavarshinig15@gmail.com",
-      subject: `Nouveau message de ${prenom} ${nom}`,
+      replyTo: `${prenom} ${nom} <${email}>`,
+      subject: `New message from ${prenom} ${nom}`,
       text: `
-Nom: ${nom}
-Prénom: ${prenom}
-Email: ${email}
+    Sender name: ${prenom} ${nom}
+    First name: ${prenom}
+    Last name: ${nom}
+    Email: ${email}
 
-Message:
+    Message:
 ${message}
       `,
       html: `
@@ -82,7 +84,7 @@ ${message}
                         <tr>
                           <td style="vertical-align: bottom; padding-bottom: 8px; white-space: nowrap;">
                             <h1 style="margin: 0 !important; color: #ffffff !important; font-size: 42px; font-weight: 700; white-space: nowrap; letter-spacing: -0.5px;">
-                              Nouveau message
+                              New message
                             </h1>
                           </td>
                           <td style="width: 100%; vertical-align: bottom; padding-bottom: 12px; padding-left: 24px;">
@@ -91,16 +93,16 @@ ${message}
                         </tr>
                       </table>
 
-                      <!-- Informations expéditeur -->
+                      <!-- Sender information -->
                       <div style="background-color: #1a1a1a !important; padding: 24px; border-radius: 12px; margin-bottom: 30px;">
                         <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                           <tr>
-                            <!-- Photo de profil placeholder -->
+                            <!-- Profile photo placeholder -->
                             <td style="width: 80px; vertical-align: top;">
                               <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);"></div>
                             </td>
                             
-                            <!-- Informations -->
+                            <!-- Details -->
                             <td style="vertical-align: top; padding-left: 24px;">
                               <h2 style="margin: 0 0 8px 0 !important; color: #ffffff !important; font-size: 24px; font-weight: 700; letter-spacing: -0.5px;">
                                 ${prenom} ${nom}
@@ -132,10 +134,10 @@ ${message}
                         </div>
                       </div>
 
-                      <!-- Bouton de réponse -->
+                      <!-- Reply button -->
                       <div style="text-align: center; margin-top: 32px;">
                         <a href="mailto:${email}" style="display: inline-flex; align-items: center; gap: 8px; background-color: #ffffff !important; color: #191919 !important; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 15px;">
-                          <span style="transform: translateY(-1px); display: inline-block; color: #191919 !important;">Répondre au message</span>
+                          <span style="transform: translateY(-1px); display: inline-block; color: #191919 !important;">Reply to message</span>
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
                             <path d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                           </svg>
@@ -149,10 +151,10 @@ ${message}
                   <tr>
                     <td style="background-color: #0f0f0f !important; padding: 24px 40px; text-align: center; border-top: 1px solid #2a2a2a;">
                       <p style="margin: 0 !important; color: #999999 !important; font-size: 13px; line-height: 1.5;">
-                        Ce message a été envoyé depuis le formulaire de contact de votre portfolio.
+                        This message was sent from your portfolio contact form.
                       </p>
                       <p style="margin: 8px 0 0 0 !important; color: #666666 !important; font-size: 12px;">
-                        © ${new Date().getFullYear()} Vidyavarshini G. Tous droits réservés.
+                        © ${new Date().getFullYear()} Vidyavarshini G. All rights reserved.
                       </p>
                     </td>
                   </tr>
@@ -170,13 +172,13 @@ ${message}
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json(
-      { message: "Message envoyé avec succès" },
+      { message: "Message sent successfully" },
       { status: 200 }
     );
   } catch (error) {
-    console.error("Erreur lors de l'envoi de l'email:", error);
+    console.error("Error while sending email:", error);
     return NextResponse.json(
-      { error: "Erreur lors de l'envoi du message" },
+      { error: "Error while sending the message" },
       { status: 500 }
     );
   }

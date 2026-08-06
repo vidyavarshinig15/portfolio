@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité - Vidyavarshini G",
+  title: "Privacy Policy - Vidyavarshini G",
   description:
-    "Politique de confidentialité et traitement des données personnelles sur votre site.",
+    "Privacy policy and personal data processing for Vidyavarshini G's website.",
 };
 
 export default function Confidentialite() {
@@ -15,151 +15,130 @@ export default function Confidentialite() {
 
       <div className="container mx-auto px-4 py-25 max-w-4xl flex-grow">
         <h1 className="text-4xl font-bold mb-8 text-foreground">
-          Politique de Confidentialité
+          Privacy Policy
         </h1>
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-            Dernière mise à jour : 21 octobre 2025
+            Last updated: October 21, 2025
           </p>
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              1. Données collectées
+              1. Collected Data
             </h2>
             <p>
-              Lorsque vous utilisez le formulaire de contact, les informations
-              suivantes peuvent être collectées :
+              When you use the contact form, the following information may be collected:
             </p>
             <ul className="list-none pl-2 mt-2 space-y-2">
               <li className="before:content-['-'] before:mr-2">
-                Nom et prénom
+                First and last name
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Adresse email
+                Email address
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Message envoyé via le formulaire
+                Message sent through the form
               </li>
             </ul>
             <p className="mt-4">
-              Le site utilise également Vercel Analytics, un service qui
-              recueille des données de navigation sous forme anonymisée
-              (statistiques de visite, pages consultées, temps de chargement,
-              etc.). Ces données ne permettent pas d&apos;identifier directement
-              l&apos;utilisateur.
+              The site also uses Vercel Analytics, a service that collects browsing data in anonymized form (visit statistics, pages viewed, loading times, etc.). This data does not directly identify the user.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              2. Finalité de la collecte
+              2. Purpose of Collection
             </h2>
             <p>
-              Les données collectées via le formulaire sont utilisées uniquement
-              pour :
+              The data collected via the form is used only for:
             </p>
             <ul className="list-none pl-2 mt-2 space-y-2">
               <li className="before:content-['-'] before:mr-2">
-                Répondre aux demandes envoyées par l&apos;utilisateur.
+                Responding to requests sent by the user.
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Assurer le suivi des échanges si nécessaire.
+                Following up on exchanges if necessary.
               </li>
             </ul>
             <p className="mt-4">
-              Les donneés issues des outils d&apos;analyse sont utilisées
-              uniquement pour améliorer le fonctionnement et l&apos;expérience
-              utilisateur du site.
+              Data from analytics tools is used only to improve the site's functionality and user experience.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              3. Base légale du traitement
+              3. Legal Basis for Processing
             </h2>
-            <p>Le traitement des données repose sur :</p>
+            <p>The data processing is based on:</p>
             <ul className="list-none pl-2 mt-2 space-y-2">
               <li className="before:content-['-'] before:mr-2">
-                L&apos;intérêt légitime de l&apos;éditeur du site pour répondre
-                aux demandes et assurer le suivi de ses échanges.
+                The legitimate interest of the site publisher to respond to requests and ensure follow-up.
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Le consentement explicite de l&apos;utilisateur pour
-                l&apos;envoi d&apos;informations via le formulaire.
+                The user's explicit consent for sending information via the form.
               </li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              4. Durée de conservation
+              4. Retention Period
             </h2>
             <ul className="list-none pl-2 mt-2 space-y-2">
               <li className="before:content-['-'] before:mr-2">
-                Données issues du formulaire de contact : conservées pour une
-                durée maximale de 3 ans à compter du dernier échange.
+                Contact form data: retained for a maximum of 3 years from the last exchange.
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Données issues des statistiques anonymisées (Vercel Analytics) :
-                conservées conformément à la politique de conservation de Vercel
-                Inc.
+                Anonymized statistics data (Vercel Analytics): retained according to Vercel Inc.'s retention policy.
               </li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              5. Destinataires des données
+              5. Data Recipients
             </h2>
             <p>
-              Les données sont destinées uniquement à l&apos;éditeur du site,
-              Vidyavarshini G, et ne sont jamais transmises ni revendues à des
-              tiers. Certaines données de navigation anonymisées peuvent être
-              traitées par Vercel Inc., en sa qualité d&apos;hébergement et
-              d&apos;analyse.
+              The data is intended only for the site publisher, Vidyavarshini G, and is never transmitted or sold to third parties. Some anonymized browsing data may be processed by Vercel Inc. as host and analytics provider.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              6. Droits des utilisateurs
+              6. User Rights
             </h2>
             <p>
-              Conformément au Règlement Général sur la Protection des Données
-              (RGPD), vous disposez des droits suivants :
+              In accordance with the General Data Protection Regulation (GDPR), you have the following rights:
             </p>
             <ul className="list-none pl-2 mt-2 space-y-2">
               <li className="before:content-['-'] before:mr-2">
-                Droit d&apos;accès à vos données
+                Right to access your data
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Droit de rectification
+                Right to rectification
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Droit à l&apos;effacement (&quot;droit à l&apos;oubli&quot;)
+                Right to erasure ("right to be forgotten")
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Droit d&apos;opposition
+                Right to object
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Droit de limitation du traitement
+                Right to restriction of processing
               </li>
               <li className="before:content-['-'] before:mr-2">
-                Droit à la portabilité des données (si applicable)
+                Right to data portability (if applicable)
               </li>
             </ul>
             <p className="mt-4">
-              Pour exercer vos droits, vous pouvez envoyer une demande à
-              l&apos;adresse suivante :{" "}
+              To exercise your rights, you can send a request to:{" "}
               <a
                 href="mailto:vidyavarshinig15@gmail.com"
                 className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors"
               >
                 vidyavarshinig15@gmail.com
               </a>
-              . Si vous estimez, après avoir contacté l&apos;éditeur, que vos
-              droits ne sont pas respectés, vous pouvez introduire une
-              réclamation auprès de la CNIL ({""}
+              . If you believe, after contacting the publisher, that your rights are not respected, you can file a complaint with the CNIL ({""}
               <a
                 href="https://www.cnil.fr"
                 target="_blank"
@@ -174,25 +153,19 @@ export default function Confidentialite() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              7. Sécurité des données
+              7. Data Security
             </h2>
             <p>
-              L&apos;éditeur met en œuvre les mesures techniques et
-              organisationnelles appropriées pour protéger les données
-              personnelles contre toute perte, accès non autorisé, divulgation
-              ou altération.
+              The publisher implements appropriate technical and organizational measures to protect personal data against loss, unauthorized access, disclosure, or alteration.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              8. Modifications de la politique
+              8. Policy Changes
             </h2>
             <p>
-              La présente politique de confidentialité peut être mise à jour à
-              tout moment afin de s&apos;adapter aux évolutions légales ou
-              techniques. La date de dernière mise à jour est indiquée en haut
-              de page.
+              This privacy policy may be updated at any time to adapt to legal or technical developments. The date of the last update is shown at the top of the page.
             </p>
           </section>
         </div>

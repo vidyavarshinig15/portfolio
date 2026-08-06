@@ -624,18 +624,18 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-2">
                     <input
                       type="text"
-                      name="nom"
-                      placeholder={t.contact.form.lastName}
-                      value={formData.nom}
+                      name="prenom"
+                      placeholder={t.contact.form.firstName}
+                      value={formData.prenom}
                       onChange={handleChange}
                       required
                       className="px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-[#1a1a1a] text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#191919] dark:focus:ring-white transition-shadow"
                     />
                     <input
                       type="text"
-                      name="prenom"
-                      placeholder={t.contact.form.firstName}
-                      value={formData.prenom}
+                      name="nom"
+                      placeholder={t.contact.form.lastName}
+                      value={formData.nom}
                       onChange={handleChange}
                       required
                       className="px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-[#1a1a1a] text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#191919] dark:focus:ring-white transition-shadow"
