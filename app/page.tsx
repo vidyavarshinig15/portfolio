@@ -590,7 +590,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProjectCard
                 images={[
                   "/swarcure-1.png",
@@ -601,7 +601,7 @@ export default function Home() {
                 description={t.projects.swarcure.description}
                 date={t.projects.swarcure.date}
                 tags={["React", "JavaScript", "REST APIs", "Supabase"]}
-                siteUrl="https://github.com/vidyavarshinig15"
+                siteUrl="https://github.com/vidyavarshinig15/swar_cure_main"
               />
               <ProjectCard
                 images={[
@@ -613,7 +613,37 @@ export default function Home() {
                 description={t.projects.vvceConnect.description}
                 date={t.projects.vvceConnect.date}
                 tags={["React", "Node.js", "TypeScript", "Supabase", "REST APIs"]}
-                siteUrl="https://github.com/vidyavarshinig15"
+                siteUrl="https://github.com/vidyavarshinig15/Vvce-connect"
+              />
+              <ProjectCard
+                images={[
+                  "/fruit-erp.png"
+                ]}
+                title="Fruit & Vegetable ERP"
+                description={t.projects.fruitVegetableErp.description}
+                date={t.projects.fruitVegetableErp.date}
+                tags={["React", "Node.js", "MySQL", "ERP"]}
+                siteUrl="https://github.com/vidyavarshinig15/fruit-vegetable-erp"
+              />
+              <ProjectCard
+                images={[
+                  "/cloud-sentry.png"
+                ]}
+                title="Cloud Sentry"
+                description={t.projects.cloudSentry.description}
+                date={t.projects.cloudSentry.date}
+                tags={["React", "TypeScript", "AWS", "Security"]}
+                siteUrl="https://github.com/vidyavarshinig15/cloud-sentry"
+              />
+              <ProjectCard
+                images={[
+                  "/cloud-infra.png"
+                ]}
+                title="Cloud Projects & Infrastructure"
+                description={t.projects.cloud.description}
+                date={t.projects.cloud.date}
+                tags={["AWS", "Docker", "DevOps", "Cloud"]}
+                siteUrl="https://github.com/vidyavarshinig15/cloud"
               />
             </div>
           </div>

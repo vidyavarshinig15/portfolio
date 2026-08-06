@@ -92,6 +92,21 @@ export const translations = {
           "Created a campus and hostel networking platform. Features a multi-stage approval workflow for exam duty swaps routing between Faculty and HODs, database-level row security, role-based access control, a dynamic room allotment interface, and automated Resend API alerts.",
         date: "VVCE Connect",
       },
+      fruitVegetableErp: {
+        description:
+          "Designed and developed an Enterprise Resource Planning (ERP) system for managing supply chains, inventory, and sales transactions of fresh agricultural products. Features interactive reports and robust database management.",
+        date: "Fruit & Vegetable ERP",
+      },
+      cloudSentry: {
+        description:
+          "Developed a cloud security and monitor management tool designed to track resource usage metrics, alert administrators of vulnerabilities, and optimize access credentials across virtual machines.",
+        date: "Cloud Sentry",
+      },
+      cloud: {
+        description:
+          "A comprehensive repository of cloud infrastructure deployments, virtualization labs, and distributed architectures using AWS, docker containers, and automated scripting.",
+        date: "Cloud Projects & Infrastructure",
+      },
     },
     contact: {
       title: "Contact",
@@ -329,6 +344,21 @@ export const translations = {
         description:
           "Created a campus and hostel networking platform. Features a multi-stage approval workflow for exam duty swaps routing between Faculty and HODs, database-level row security, role-based access control, a dynamic room allotment interface, and automated Resend API alerts.",
         date: "VVCE Connect",
+      },
+      fruitVegetableErp: {
+        description:
+          "Designed and developed an Enterprise Resource Planning (ERP) system for managing supply chains, inventory, and sales transactions of fresh agricultural products. Features interactive reports and robust database management.",
+        date: "Fruit & Vegetable ERP",
+      },
+      cloudSentry: {
+        description:
+          "Developed a cloud security and monitor management tool designed to track resource usage metrics, alert administrators of vulnerabilities, and optimize access credentials across virtual machines.",
+        date: "Cloud Sentry",
+      },
+      cloud: {
+        description:
+          "A comprehensive repository of cloud infrastructure deployments, virtualization labs, and distributed architectures using AWS, docker containers, and automated scripting.",
+        date: "Cloud Projects & Infrastructure",
       },
     },
     contact: {
