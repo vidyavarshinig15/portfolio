@@ -151,7 +151,7 @@ export default function Home() {
           >
             <div className="relative mb-8">
               <svg
-                className="absolute top-3 left-1/2 -translate-x-1/2 -z-10 h-[6rem] w-auto max-w-[95vw] md:hidden"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 h-[5rem] w-auto max-w-[95vw] md:hidden"
                 viewBox="0 0 600 150"
                 preserveAspectRatio="xMidYMid meet"
                 xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +200,7 @@ export default function Home() {
                 </text>
               </svg>
               <svg
-                className="absolute top-7 left-1/2 -translate-x-1/2 -z-10 h-[8rem] hidden md:block lg:hidden"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 h-[7rem] w-auto max-w-[95vw] hidden md:block lg:hidden"
                 viewBox="0 0 800 150"
                 preserveAspectRatio="xMidYMid meet"
                 xmlns="http://www.w3.org/2000/svg"
@@ -240,7 +240,7 @@ export default function Home() {
                 </text>
               </svg>
               <svg
-                className="absolute top-12 left-1/2 -translate-x-1/2 -z-10 h-[9rem] hidden lg:block"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[53%] -z-10 h-[8rem] w-auto max-w-[95vw] hidden lg:block"
                 viewBox="0 0 800 150"
                 preserveAspectRatio="xMidYMid meet"
                 xmlns="http://www.w3.org/2000/svg"
@@ -343,12 +343,9 @@ export default function Home() {
 
               <div className="flex-1">
                 <div className="mb-6">
-                  <h3 className="text-3xl sm:text-4xl font-medium text-gray-900 dark:text-white">
-                    Vidyavarshini
+                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white whitespace-nowrap">
+                    Vidyavarshini G
                   </h3>
-                  <h4 className="text-5xl sm:text-6xl font-bold text-gray-900 dark:text-white">
-                    G
-                  </h4>
                 </div>
 
                 <div className="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
@@ -365,15 +362,6 @@ export default function Home() {
                       />
                     </svg>
                     {t.about.tags.location}
-                  </span>
-                  <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#e5e5e5]/80 dark:bg-[#2a2a2a]/80 rounded-full text-xs sm:text-sm font-medium text-[#191919] dark:text-white transition-colors">
-                    {t.about.tags.webDev}
-                  </span>
-                  <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#e5e5e5]/80 dark:bg-[#2a2a2a]/80 rounded-full text-xs sm:text-sm font-medium text-[#191919] dark:text-white transition-colors">
-                    {t.about.tags.webDesign}
-                  </span>
-                  <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-[#e5e5e5]/80 dark:bg-[#2a2a2a]/80 rounded-full text-xs sm:text-sm font-medium text-[#191919] dark:text-white transition-colors">
-                    {t.about.tags.uxUi}
                   </span>
                 </div>
 
@@ -590,7 +578,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ProjectCard
                 images={[
                   "/swarcure-1.png",
@@ -634,16 +622,6 @@ export default function Home() {
                 date={t.projects.cloudSentry.date}
                 tags={["React", "TypeScript", "AWS", "Security"]}
                 siteUrl="https://github.com/vidyavarshinig15/cloud-sentry"
-              />
-              <ProjectCard
-                images={[
-                  "/cloud-infra.png"
-                ]}
-                title="Cloud Projects & Infrastructure"
-                description={t.projects.cloud.description}
-                date={t.projects.cloud.date}
-                tags={["AWS", "Docker", "DevOps", "Cloud"]}
-                siteUrl="https://github.com/vidyavarshinig15/cloud"
               />
             </div>
           </div>

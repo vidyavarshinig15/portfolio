@@ -160,7 +160,7 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Mysuru, India
+                Bangalore, India
               </div>
             </div>
 

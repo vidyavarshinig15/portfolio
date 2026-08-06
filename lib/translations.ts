@@ -23,29 +23,29 @@ export const translations = {
     about: {
       title: "About Me",
       tags: {
-        location: "Mysuru, India",
+        location: "Bangalore, India",
         webDev: "Web Development",
         webDesign: "Full-stack Dev",
         uxUi: "Problem Solving",
       },
       description:
-        "Motivated Computer Science Engineering undergraduate skilled in full-stack development, problem-solving, and web technologies. Passionate about applying computer science skills to build impactful, real-world products. Eager to contribute to a fast-paced engineering team and grow through hands-on experience.",
+        "Passionate Computer Science Engineering student and Full-Stack Developer specializing in building high-performance web applications using React, Next.js, Node.js, and TypeScript. Experienced in designing secure database architectures with Supabase (PostgreSQL), implementing role-based access controls, and integrating AI models to solve real-world problems. A proactive problem-solver with a strong foundation in data structures and algorithms, dedicated to shipping clean, scalable, and user-centric code.",
       education: {
         title: "My Education",
         vvce: {
           location: "Vidyavardhaka College of Engineering, Mysuru",
-          degree: "B.E. in Computer Science and Engineering — CGPA: 8.82",
-          date: "2021 - 2025",
+          degree: "B.E. in Computer Science and Engineering — CGPA: 8.67",
+          date: "2022 - 2026",
         },
         jss: {
           location: "JSS PU College, Mysuru",
           degree: "Pre-University Education — Percentage: 83.5%",
-          date: "2019 - 2021",
+          date: "2020 - 2022",
         },
         stjohns: {
           location: "St. John's School, Gundlupete",
           degree: "Secondary Education — Percentage: 85.12%",
-          date: "Completed 2019",
+          date: "Completed 2020",
         },
       },
       achievements: {
@@ -101,11 +101,6 @@ export const translations = {
         description:
           "Developed a cloud security and monitor management tool designed to track resource usage metrics, alert administrators of vulnerabilities, and optimize access credentials across virtual machines.",
         date: "Cloud Sentry",
-      },
-      cloud: {
-        description:
-          "A comprehensive repository of cloud infrastructure deployments, virtualization labs, and distributed architectures using AWS, docker containers, and automated scripting.",
-        date: "Cloud Projects & Infrastructure",
       },
     },
     contact: {
@@ -276,29 +271,29 @@ export const translations = {
     about: {
       title: "About Me",
       tags: {
-        location: "Mysuru, India",
+        location: "Bangalore, India",
         webDev: "Web Development",
         webDesign: "Full-stack Dev",
         uxUi: "Problem Solving",
       },
       description:
-        "Motivated Computer Science Engineering undergraduate skilled in full-stack development, problem-solving, and web technologies. Passionate about applying computer science skills to build impactful, real-world products. Eager to contribute to a fast-paced engineering team and grow through hands-on experience.",
+        "Passionate Computer Science Engineering student and Full-Stack Developer specializing in building high-performance web applications using React, Next.js, Node.js, and TypeScript. Experienced in designing secure database architectures with Supabase (PostgreSQL), implementing role-based access controls, and integrating AI models to solve real-world problems. A proactive problem-solver with a strong foundation in data structures and algorithms, dedicated to shipping clean, scalable, and user-centric code.",
       education: {
         title: "My Education",
         vvce: {
           location: "Vidyavardhaka College of Engineering, Mysuru",
-          degree: "B.E. in Computer Science and Engineering — CGPA: 8.82",
-          date: "2021 - 2025",
+          degree: "B.E. in Computer Science and Engineering — CGPA: 8.67",
+          date: "2022 - 2026",
         },
         jss: {
           location: "JSS PU College, Mysuru",
           degree: "Pre-University Education — Percentage: 83.5%",
-          date: "2019 - 2021",
+          date: "2020 - 2022",
         },
         stjohns: {
           location: "St. John's School, Gundlupete",
           degree: "Secondary Education — Percentage: 85.12%",
-          date: "Completed 2019",
+          date: "Completed 2020",
         },
       },
       achievements: {
@@ -354,11 +349,6 @@ export const translations = {
         description:
           "Developed a cloud security and monitor management tool designed to track resource usage metrics, alert administrators of vulnerabilities, and optimize access credentials across virtual machines.",
         date: "Cloud Sentry",
-      },
-      cloud: {
-        description:
-          "A comprehensive repository of cloud infrastructure deployments, virtualization labs, and distributed architectures using AWS, docker containers, and automated scripting.",
-        date: "Cloud Projects & Infrastructure",
       },
     },
     contact: {

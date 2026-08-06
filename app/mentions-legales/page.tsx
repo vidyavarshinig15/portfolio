@@ -23,7 +23,7 @@ export default function MentionsLegales() {
             <p>
               Ce site est édité par : <strong>Vidyavarshini G</strong>
               <br />
-              Adresse : <strong>Mysuru, India</strong>
+              Adresse : <strong>Bangalore, India</strong>
               <br />
               Email :{" "}
               <strong>
