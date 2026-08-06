@@ -35,17 +35,17 @@ export const translations = {
         vvce: {
           location: "Vidyavardhaka College of Engineering, Mysuru",
           degree: "B.E. in Computer Science and Engineering — CGPA: 8.67",
-          date: "2022 - 2026",
+          date: "2023 - 2027",
         },
         jss: {
           location: "JSS PU College, Mysuru",
           degree: "Pre-University Education — Percentage: 83.5%",
-          date: "2020 - 2022",
+          date: "2022 - 2023",
         },
         stjohns: {
           location: "St. John's School, Gundlupete",
           degree: "Secondary Education — Percentage: 85.12%",
-          date: "Completed 2020",
+          date: "2021",
         },
       },
       achievements: {
@@ -283,17 +283,17 @@ export const translations = {
         vvce: {
           location: "Vidyavardhaka College of Engineering, Mysuru",
           degree: "B.E. in Computer Science and Engineering — CGPA: 8.67",
-          date: "2022 - 2026",
+          date: "2023 - 2027",
         },
         jss: {
           location: "JSS PU College, Mysuru",
           degree: "Pre-University Education — Percentage: 83.5%",
-          date: "2020 - 2022",
+          date: "2022 - 2023",
         },
         stjohns: {
           location: "St. John's School, Gundlupete",
           degree: "Secondary Education — Percentage: 85.12%",
-          date: "Completed 2020",
+          date: "Completed 2021",
         },
       },
       achievements: {

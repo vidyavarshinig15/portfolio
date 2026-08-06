@@ -149,46 +149,27 @@ export default function Home() {
             role="main"
             aria-label="Contenu principal"
           >
-            <div className="relative mb-8">
+            <div className="relative mb-8 leading-none">
               <svg
-                className="absolute inset-0 -z-10 w-full h-full"
+                className="absolute inset-0 -z-10 w-full h-full translate-x-[2px] translate-y-[12px] sm:translate-x-[3px] sm:translate-y-[14px]"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
               >
-                <defs>
-                  <linearGradient
-                    id="strokeGradientDesktop"
-                    x1="0%"
-                    y1="0%"
-                    x2="0%"
-                    y2="100%"
-                  >
-                    <stop
-                      offset="60%"
-                      stopColor="currentColor"
-                      stopOpacity="0"
-                    />
-                    <stop
-                      offset="100%"
-                      stopColor="currentColor"
-                      stopOpacity="1"
-                    />
-                  </linearGradient>
-                </defs>
                 <text
                   x="50%"
                   y="50%"
                   dominantBaseline="middle"
                   textAnchor="middle"
-                  className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold fill-transparent"
-                  stroke="url(#strokeGradientDesktop)"
-                  strokeWidth="2"
-                  style={{ fontFamily: "var(--font-sans)" }}
+                  className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black fill-transparent text-black/20 dark:text-white/25 opacity-90"
+                  stroke="currentColor"
+                  strokeWidth="1.25"
+                  paintOrder="stroke"
+                  style={{ fontFamily: "var(--font-sans)", letterSpacing: "-0.05em" }}
                 >
                   Vidyavarshini G
                 </text>
               </svg>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-center relative z-10 whitespace-nowrap">
+              <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black tracking-[-0.05em] text-center relative z-10 whitespace-nowrap text-[#111111] dark:text-white" style={{ fontFamily: "var(--font-sans)" }}>
                 Vidyavarshini G
               </h1>
             </div>
