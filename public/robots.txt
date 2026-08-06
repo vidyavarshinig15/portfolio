@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vidyavarshini-g.vercel.app/sitemap.xml
