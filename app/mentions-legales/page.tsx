@@ -19,7 +19,7 @@ export default function MentionsLegales() {
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Éditeur du site</h2>
+            <h2 className="text-2xl font-semibold mb-4">1. Site Publisher</h2>
             <p>
               This site is published by: <strong>Vidyavarshini G</strong>
               <br />
@@ -38,25 +38,25 @@ export default function MentionsLegales() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Hébergement</h2>
+            <h2 className="text-2xl font-semibold mb-4">2. Hosting</h2>
             <p>
-              Ce site est hébergé par : <strong>Vercel Inc.</strong>
+              This site is hosted by: <strong>Vercel Inc.</strong>
               <br />
-              340 S Lemon Ave #4133 Walnut, CA 91789, États-Unis
+              340 S Lemon Ave #4133 Walnut, CA 91789, United States
               <br />
-              Téléphone : (559) 288-7060
+              Phone: (559) 288-7060
               <br />
-              Site web :{" "}
+              Website:{" "}
               <a
-                This site is hosted by: <strong>Vercel Inc.</strong>
+                href="https://vercel.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors"
-                Phone: (559) 288-7060
+              >
                 https://vercel.com
-                Website: {" "}
+              </a>
               <br />
-              Email :{" "}
+              Email:{" "}
               <a
                 href="mailto:privacy@vercel.com"
                 className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white underline underline-offset-2 transition-colors"
@@ -68,7 +68,7 @@ export default function MentionsLegales() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              3. Propriété intellectuelle
+              3. Intellectual Property
             </h2>
             <p>
               All site elements (texts, images, graphics, logos, etc.) are, unless otherwise stated, the exclusive property of Vidyavarshini G. <br />
@@ -79,7 +79,7 @@ export default function MentionsLegales() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">
-              4. Données personnelles
+              4. Personal Data
             </h2>
             <p>
               Information collected through the contact form is used only to respond to requests sent by the user. Data is retained for a maximum of 3 years, unless otherwise required by law, and is never sold to third parties. The site uses Vercel Analytics, a service provided by Vercel Inc., to measure site traffic and usage. The collected data is anonymized and does not directly identify the user. In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify, object to, and delete your personal data. To exercise this right, you can send a request to:{" "}
@@ -93,7 +93,7 @@ export default function MentionsLegales() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Responsabilité</h2>
+            <h2 className="text-2xl font-semibold mb-4">5. Liability</h2>
             <p>
               The site publisher cannot be held responsible for errors or omissions on the site, or for any technical problems encountered by the user. The site may contain hyperlinks to other websites. The publisher has no control over those sites and disclaims any responsibility for their content.
             </p>
