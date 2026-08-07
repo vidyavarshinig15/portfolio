@@ -1,6 +1,8 @@
 # Vidyavarshini G – Portfolio
 
 Professional portfolio presenting my projects, skills, and experience as a Computer Science Engineering undergraduate.
+<br>
+https://portfolio-sable-ten-24.vercel.app
 
 ## 🛠️ Tech Stack
 
@@ -24,8 +26,7 @@ Professional portfolio presenting my projects, skills, and experience as a Compu
 
 ## 🌐 Live Site
 
-- **Website**: [https://vidyavarshini-g.vercel.app](https://vidyavarshini-g.vercel.app)
-
+- **Website**: https://portfolio-sable-ten-24.vercel.app
 ## 👤 Author
 
 - **Vidyavarshini G**
